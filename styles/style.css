@@ -1,4 +1,17 @@
 body{
     background-color: #333333;
     color: whitesmoke;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.middle{
+    font-size: 200px;
+    text-align: center;
+    /* background-color: blue; */
+    margin: 0px;
+}
+
+img .logo{
+    padding: 25px 5px;
+    width: 10px;
 }

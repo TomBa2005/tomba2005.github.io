@@ -41,9 +41,8 @@ body{
     width: 120px;
 }
 
-.btn {
+.btn a:hover{
     background-color: #292929;
-    outline-color: #000000;
     padding: 20px;
 }
 
@@ -83,11 +82,11 @@ li figure {
     padding: 5px;
     background-color: #292929;
 }
-
+/* 
 a:hover{
     padding: 20px;
     background-color: rgb(108, 108, 255);
-}
+} */
 
 .active {
     padding: 20px;

@@ -5,16 +5,40 @@ body{
 }
 
 .middle{
-    font-size: 200px;
+    font-size: 10px;
     text-align: center;
     margin: 0px;
+}
+
+.middleul{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
 }
 
 .middleimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 50px;
+}
+
+.headerul{
+    background-color: #292929;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.headerimg {
+    filter: invert(99%) sepia(4%) saturate(344%) hue-rotate(259deg) brightness(120%) contrast(92%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
 }
 
 figure {
@@ -29,8 +53,7 @@ a{
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
     overflow: hidden;
 }
 
@@ -45,3 +68,26 @@ li figure {
     text-align: center;
     
 }
+
+.nav{
+    padding: 20px;
+}
+
+.navcontainer{
+    padding: 5px;
+    background-color: #292929;
+}
+
+a:hover{
+    padding: 20px;
+    background-color: rgb(108, 108, 255);
+}
+
+.active {
+    padding: 20px;
+    background-color: rgb(108, 108, 255);
+}
+
+.vid{
+    padding: 10px;
+} 
